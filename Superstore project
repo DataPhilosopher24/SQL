@@ -26,3 +26,16 @@ VALUES
     (15, 'Cozy Throw Blanket', 'Furnishings', 24.99, 100, 4.2);
     
     
+
+select*
+from superstore
+order by price desc
+;
+select SUM (Price)
+from superstore 
+;
+select Max(price)
+from Superstore 
+where item_id = 2
+
+
